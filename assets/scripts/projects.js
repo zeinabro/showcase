@@ -10,7 +10,12 @@ async function show_project_cards() {
     console.log(projects)
 
     projects.forEach((project) => {
-        
+        const card = document.createElement('div')
+        card.className = 'card'
+        const card_cover = document.createElement('img')
+        card_cover.src = project.card
+        card.appendChild(card_cover)
+        projects_section.appendChild(card)
     })
 }
 

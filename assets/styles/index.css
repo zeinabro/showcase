@@ -73,3 +73,16 @@ a:hover{
 a:visited {
     text-decoration: none;
 }
+
+#projects {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.card img{
+    width: 100px;
+    height: 150px;
+}

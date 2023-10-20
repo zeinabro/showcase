@@ -9,7 +9,7 @@
         "repo": "https://github.com/zeinabro/media-tracker/",
         "docs": "",
         "group": "n",
-        "card": "<img src='assets/cards/media-tracker.jpg"
+        "card": "assets/cards/media-tracker.jpg"
     },
     {
         "name": "Art Quiz",
@@ -21,7 +21,7 @@
         "repo": "https://github.com/anthonychan1211/Lap-1-project-quiz",
         "docs": "",
         "group": "y",
-        "card": "<img src='assets/cards/art-quiz.jpg"
+        "card": "assets/cards/art-quiz.jpg"
     },
     {
         "name": "Florinate",
@@ -34,7 +34,7 @@
         "docs": "",
         "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEk6Hr9QwDJbm3R7g?e=LafW4q",
         "group": "y",
-        "card": "<img src='assets/cards/florinate-1.jpg"
+        "card": "assets/cards/florinate.jpg"
     },
     {
         "name": "Pokrastemon",
@@ -47,7 +47,7 @@
         "docs": "",
         "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEmA62b2kMTJ8Z1Wg?e=uJgDaA",
         "group": "y",
-        "card": "<img src='assets/cards/pokrastemon.jpg"
+        "card": "assets/cards/pokrastemon.jpg"
     },
     {
         "name": "Sight Reader",
@@ -60,6 +60,6 @@
         "docs": "",
         "presentation":"https://1drv.ms/p/s!Av5LawaAE339goErt8zS9_Ce_48xPg?e=h95iiH",
         "group": "y",
-        "card": "<img src='assets/cards/sight-reader.jpg"
+        "card": "assets/cards/sight-reader.jpg"
     }
 ]
