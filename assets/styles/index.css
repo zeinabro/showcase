@@ -3,6 +3,7 @@ body{
     display: grid;
     min-height: 100%;
     text-align: center;
+    background-color: rgb(196, 147, 196);
 }
 
 #header {
@@ -17,14 +18,10 @@ body{
 }
 
 #footer {
-    /* position: absolute;
-    bottom: 0%;
-    margin: 0 auto;
-    left: 50%;
-    margin-left: -15px; */
     position: absolute;
     bottom: 0;
-    left: 50%;
+    right: 0;
+    left: 0;
 }
 
 #main {
@@ -51,6 +48,10 @@ body{
     z-index: 1;
 }
 
+svg:hover{
+    fill: white;
+}
+
 /* .svg-link span {
     display: inline-block;
 }
@@ -66,7 +67,7 @@ a {
 }
 
 a:hover{
-    color: plum;
+    color: white;
 }
 
 a:visited {
