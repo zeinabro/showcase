@@ -13,14 +13,30 @@ async function show_project_cards() {
         const card = document.createElement('div')
         card.className = 'card'
         const card_cover = document.createElement('img')
-        card_cover.src = project.card
+        card_cover.src = project.icon
+
+        card_title = document.createElement('span')
+        card_title.textContent = project.name
+        card_title.className = 'hidden'
+
         card_cover.addEventListener('click',() => {
             open_project(project)
         })
-        card.appendChild(card_cover)
+        card_cover.addEventListener('mouseover', () => {
+            console.log(card_title)
+        })
+        // card_cover.addEventListener('mouseover',()=>{
+        //     console.log(card_title)
+        // })
+        // card_cover.addEventListener('mouseout', () => {
+        //     console.log(card_title)
+        // })
+     
+        card.append(card_cover, card_title)
         projects_section.appendChild(card)
     })
 }
+
 
 function open_project(project) {
     console.log(project)

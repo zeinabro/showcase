@@ -3,7 +3,7 @@ body{
     display: grid;
     min-height: 100%;
     text-align: center;
-    background-color: rgb(196, 147, 196);
+    background-color: rgb(231, 212, 231);
 }
 
 #header {
@@ -24,12 +24,28 @@ body{
     left: 0;
 }
 
-#main {
+#main, #projects{
     position: absolute;
     top: 50%;
     /* bottom: 50%; */
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+#projects{
+    display: flex;
+    max-width: 600px;
+    height: fit-content;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    border: white;
+    border-radius: 50px;
+    border-style: solid;
+    padding-top: 15px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
 }
 
 #main .title{
@@ -74,15 +90,39 @@ a:visited {
     text-decoration: none;
 }
 
-#projects {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 700px;
-    margin: 0 auto;
+.card {
+    padding: 10px;
 }
 
 .card img{
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.card img:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+}
+
+.card span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: plum;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.shown {
+    visibility: visible;
 }
