@@ -22,25 +22,32 @@ async function show_project_cards() {
         card_cover.addEventListener('click',() => {
             open_project(project)
         })
+        card_title.addEventListener('click',() => {
+            open_project(project)
+        })
+
         card_cover.addEventListener('mouseover', () => {
             const title = card_cover.parentNode.childNodes[1]
             title.classList.remove('hidden')
             card_cover.style.opacity = 0.5
+            card_cover.style.cursor = 'pointer'
         })
         card_title.addEventListener('mouseover', () => {
             const title = card_cover.parentNode.childNodes[1]
             title.classList.remove('hidden')
             card_cover.style.opacity = 0.5
+            card_title.style.cursor = 'pointer'
+        })
+
+        card_cover.addEventListener('mouseleave', () => {
+            const title = card_cover.parentNode.childNodes[1]
+            title.classList.add('hidden')
+            card_cover.style.opacity = 1
         })
         card_title.addEventListener('mouseleave', () => {
             const title = card_cover.parentNode.childNodes[1]
             title.classList.remove('hidden')
             card_cover.style.opacity = 0.5
-        })
-        card_cover.addEventListener('mouseleave', () => {
-            const title = card_cover.parentNode.childNodes[1]
-            title.classList.add('hidden')
-            card_cover.style.opacity = 1
         })
      
         card.append(card_cover, card_title)
@@ -50,9 +57,8 @@ async function show_project_cards() {
 
 
 function open_project(project) {
-    console.log(project)
-    // const screenshot = document.createElement('img')
-    // screenshot.src = `${project.screenshots}/1.png`
+    localStorage.setItem("project", JSON.stringify(project))
+    window.open('project.html', "_self")
 }
 
 const projects_section = document.querySelector('#projects')
