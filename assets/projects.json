@@ -78,7 +78,7 @@
         "docs": "",
         "group": "n",
         "card": "assets/icons/hangman.png",
-        "screenshots": "assets/screenshots/x"
+        "screenshots": "assets/screenshots/hangman"
     },
     {
         "name": "Theatre App",
@@ -90,6 +90,6 @@
         "repo": "https://github.com/zeinabro/theatre-app",
         "group": "y",
         "card": "",
-        "screenshots": ""
+        "screenshots": "assets/screenshots/theatre"
     }
 ]
