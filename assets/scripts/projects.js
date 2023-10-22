@@ -23,14 +23,25 @@ async function show_project_cards() {
             open_project(project)
         })
         card_cover.addEventListener('mouseover', () => {
-            console.log(card_title)
+            const title = card_cover.parentNode.childNodes[1]
+            title.classList.remove('hidden')
+            card_cover.style.opacity = 0.5
         })
-        // card_cover.addEventListener('mouseover',()=>{
-        //     console.log(card_title)
-        // })
-        // card_cover.addEventListener('mouseout', () => {
-        //     console.log(card_title)
-        // })
+        card_title.addEventListener('mouseover', () => {
+            const title = card_cover.parentNode.childNodes[1]
+            title.classList.remove('hidden')
+            card_cover.style.opacity = 0.5
+        })
+        card_title.addEventListener('mouseleave', () => {
+            const title = card_cover.parentNode.childNodes[1]
+            title.classList.remove('hidden')
+            card_cover.style.opacity = 0.5
+        })
+        card_cover.addEventListener('mouseleave', () => {
+            const title = card_cover.parentNode.childNodes[1]
+            title.classList.add('hidden')
+            card_cover.style.opacity = 1
+        })
      
         card.append(card_cover, card_title)
         projects_section.appendChild(card)
