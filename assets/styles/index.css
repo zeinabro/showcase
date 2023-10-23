@@ -30,18 +30,6 @@ body{
     transform: translate(-50%,-50%);
 }
 
-#projects{
-    display: flex;
-    max-width: 600px;
-    height: fit-content;
-    overflow-y:scroll;
-    scroll-behavior: smooth;
-    border: white;
-    border-radius: 50px;
-    border-style: solid;
-    padding-top: 15px;
-}
-
 ::-webkit-scrollbar{
     width: 0px;
 }
@@ -109,10 +97,19 @@ a:visited {
     visibility:hidden;
 }
 
-.shown {
-    visibility: visible;
+#projects{
+    display: flex;
+    max-width: 600px;
+    height: fit-content;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    border: white;
+    border-radius: 50px;
+    border-style: solid;
+    padding-top: 15px;
 }
 
 .screenshot {
     max-width: 300px;
 }
+

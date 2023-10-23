@@ -1,5 +1,5 @@
 function show_project() {
-    const heading = document.createElement('h1')
+    const heading = document.createElement('h2')
     heading.textContent = project.name
 
     const ss_section = document.createElement('div')
@@ -8,7 +8,8 @@ function show_project() {
     screenshot.src = `${project.screenshots}/1.png`
     screenshot.className = 'screenshot 1'
     ss_section.appendChild(screenshot)
-    project_section.append(heading, screenshot)
+
+    project_section.append(heading, ss_section)
 }
 
 const project = JSON.parse(localStorage.getItem('project'))
