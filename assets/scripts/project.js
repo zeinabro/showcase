@@ -1,6 +1,7 @@
 function show_project() {
-    const heading = document.createElement('h2')
-    heading.textContent = project.name
+    const title = document.createElement('p')
+    title.className = 'project-title'
+    title.textContent = (project.name).toUpperCase()
     const ss_section = document.createElement('div')
     ss_section.className = 'screenshots-container'
 
@@ -28,11 +29,13 @@ function show_project() {
     ss_section.appendChild(right_btn)
 
     const desc_section = document.createElement('div') 
+    desc_section.className = 'description-container'
     const desc = document.createElement('p')
+    desc.className = 'description'
     desc.textContent = project.description
     desc_section.appendChild(desc)
 
-    project_section.append(heading, ss_section, desc_section)
+    project_section.append(title, ss_section, desc_section)
 }
 
 function show_slide(n){
