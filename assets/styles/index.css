@@ -1,5 +1,4 @@
 body{
-    font-size: 15px;
     display: grid;
     min-height: 100%;
     text-align: center;
@@ -50,7 +49,7 @@ body{
     z-index: 1;
 }
 
-svg:hover{
+.svg-link svg:hover{
     fill: white;
 }
 
@@ -109,7 +108,30 @@ a:visited {
     padding-top: 15px;
 }
 
-.screenshot {
-    max-width: 300px;
+.screenshots-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
+.screenshot {
+    max-width: 500px;
+    display: none;
+    border-radius: 30px;
+}
+
+.prev, .next {
+    align-self: center;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next svg:hover, .prev svg:hover{
+    fill: white;
+    cursor: pointer;
+}

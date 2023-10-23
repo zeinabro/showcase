@@ -9,7 +9,8 @@ async function show_project_cards() {
     const projects = await get_data()
     console.log(projects)
 
-    projects.forEach((project) => {
+    projects.forEach((project, i) => {
+        console.log(project.name, i)
         const card = document.createElement('div')
         card.className = 'card'
         const card_cover = document.createElement('img')
@@ -20,10 +21,10 @@ async function show_project_cards() {
         card_title.className = 'hidden'
 
         card_cover.addEventListener('click',() => {
-            open_project(project)
+            open_project(project, i)
         })
         card_title.addEventListener('click',() => {
-            open_project(project)
+            open_project(project, i)
         })
 
         card_cover.addEventListener('mouseover', () => {
@@ -56,8 +57,9 @@ async function show_project_cards() {
 }
 
 
-function open_project(project) {
+function open_project(project, i) {
     localStorage.setItem("project", JSON.stringify(project))
+    localStorage.setItem("index", i)
     window.open('project.html', "_self")
 }
 
