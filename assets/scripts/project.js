@@ -8,6 +8,7 @@ async function get_data() {
 async function show_project() {
     const projects = await get_data()
     console.log(projects)
+    console.log(project)
 
     const title = document.createElement('p')
     title.className = 'project-title'

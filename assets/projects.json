@@ -3,93 +3,93 @@
         "name": "Media Tracker",
         "description": "An app I designed and made as part of my A Level Computer Science course. Users are able to create an account, search for and log a title into different lists (Completed, Planning, etc) and add their rating. I used Python Tkinter for the front-end and SQL for the database on the back-end.",
         "role": "Full-stack",
-        "icon": "assets/icons/media-tracker.png",
+        "icon": "showcase/assets/icons/media-tracker.png",
         "link": "",
         "api": "",
         "repo": "https://github.com/zeinabro/media-tracker/",
         "docs": "",
         "group": "n",
-        "card": "assets/cards/media-tracker.jpg",
-        "screenshots": "assets/screenshots/media-tracker"
+        "card": "showcase/assets/cards/media-tracker.jpg",
+        "screenshots": "showcase/assets/screenshots/media-tracker"
     },
     {
         "name": "Art Quiz",
         "description": "This is the first project I worked on during my course at La Fosse Academy. This app was designed to motivate students to enjoy non STEM subjects. Users are given a set of zoomed in paintings in which they must select the artist of. After a wrong guess, more of the painting is revealed. I worked on the front-end with JavaScript.",
         "role": "Front-end",
-        "icon": "assets/icons/art-quiz.png",
+        "icon": "showcase/assets/icons/art-quiz.png",
         "link": "https://zeinabro.github.io/art-quiz/",
         "api": "https://lap1-project-backend.onrender.com/",
         "repo": "https://github.com/anthonychan1211/Lap-1-project-quiz",
         "docs": "",
         "group": "y",
-        "card": "assets/cards/art-quiz.jpg",
-        "screenshots": "assets/screenshots/art-quiz"
+        "card": "showcase/assets/cards/art-quiz.jpg",
+        "screenshots": "showcase/assets/screenshots/art-quiz"
     },
     {
         "name": "Florinate",
         "description": "In this group project, we built an app to help enhance a fictional community called 'Florin'. I worked on both the front and back-end, as well as testing the front-end, with JS, NodeJS and Jest. Users are able to create an account, create and apply to job listings, create and bookmark events and, finally, create and join skill classes.",
         "role": "Full-stack, QA",
-        "icon": "assets/icons/florinate.png",
+        "icon": "showcase/assets/icons/florinate.png",
         "link": "https://florinate-client.onrender.com/",
         "api": "https://florinate-api.onrender.com/",
         "repo": "https://github.com/JacobBrooks0/Lap2-Project",
         "docs": "",
         "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEk6Hr9QwDJbm3R7g?e=LafW4q",
         "group": "y",
-        "card": "assets/cards/florinate.jpg",
-        "screenshots": "assets/screenshots/florinate"
+        "card": "showcase/assets/cards/florinate.jpg",
+        "screenshots": "showcase/assets/screenshots/florinate"
     },
     {
         "name": "Pokrastemon",
         "description": "This app uses the well-loved franchise Pokémon and study technique 'pomodoro' to help motivate users, with a focus on students, to study. I worked on the both the front and back-end of this project, using NodeJs and React.",
         "role": "Full-stack",
-        "icon": "assets/icons/pokrastemon.png",
+        "icon": "showcase/assets/icons/pokrastemon.png",
         "link": "https://pokrastemon.onrender.com/",
         "api": "https://pokrastemon-api.onrender.com/",
         "repo": "https://github.com/kieranscutt/Pokrastemon-app",
         "docs": "",
         "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEmA62b2kMTJ8Z1Wg?e=uJgDaA",
         "group": "y",
-        "card": "assets/cards/pokrastemon.jpg",
-        "screenshots": "assets/screenshots/pokrastemon"
+        "card": "showcase/assets/cards/pokrastemon.jpg",
+        "screenshots": "showcase/assets/screenshots/pokrastemon"
     },
     {
         "name": "Sight Reader",
         "description": "In my final project at La Fosse, my team and I built a web app designed to help users practise their sight-reading skills. Users are able to make/complete assignments, message friends and as earn points to appear on a leader-board. I worked on the API routes and database on the back-end and the account page on the front-end.",
         "role": "Full-stack",
-        "icon": "assets/icons/sight-reader.png",
+        "icon": "showcase/assets/icons/sight-reader.png",
         "link": "https://sightreader.onrender.com/",
         "api": "https://sight-reader-api.onrender.com/",
         "repo": "https://github.com/SumeetChoat/thefinalproject",
         "docs": "",
         "presentation":"https://1drv.ms/p/s!Av5LawaAE339goErt8zS9_Ce_48xPg?e=h95iiH",
         "group": "y",
-        "card": "assets/cards/sight-reader.jpg",
-        "screenshots": "assets/screenshots/sight-reader"
+        "card": "showcase/assets/cards/sight-reader.jpg",
+        "screenshots": "showcase/assets/screenshots/sight-reader"
     },
     {
         "name": "Hangman",
         "description": "A simple hangman game I built using JS and HTML. I used an external API to generate random words.",
         "role": "Front-end",
-        "icon": "assets/icons/hangman.png",
+        "icon": "showcase/assets/icons/hangman.png",
         "link": "https://zeinabro.github.io/hangman/",
         "api": "",
         "repo": "https://github.com/zeinabro/hangman",
         "docs": "",
         "group": "n",
-        "card": "assets/icons/hangman.png",
-        "screenshots": "assets/screenshots/hangman"
+        "card": "showcase/assets/icons/hangman.png",
+        "screenshots": "showcase/assets/screenshots/hangman"
     },
     {
         "name": "Theatre App",
         "description":"An unfinished webpage for an imaginary theatre to showcase their shows and screenings. I worked on this in a pair with a fellow student at La Fosse Academy.",
         "role":"Back-end",
-        "icon": "assets/icons/theatre.png",
+        "icon": "showcase/assets/icons/theatre.png",
         "link": "https://zeinabro.github.io/theatre-app//",
         "api": "https://plays-api.onrender.com/",
         "repo": "https://github.com/zeinabro/theatre-app",
         "group": "y",
         "card": "",
-        "screenshots": "assets/screenshots/theatre"
+        "screenshots": "showcase/assets/screenshots/theatre"
     }
 ]
