@@ -52,7 +52,7 @@ body, #header {
     font-size: 20px; 
 }
 
-#main, #projects{
+#main, #projects, #about-container{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -110,8 +110,8 @@ a:visited {
 }
 
 .card img{
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
 }
 
 .card {
@@ -147,9 +147,9 @@ a:visited {
     padding-top: 15px;
 }
 
-#project {
+#project, .me-section, .career-section{
     margin: 0 auto;
-    max-width: 600px;
+    /* max-width: 600px; */
     /* max-height: 600px; */
     border: white;
     border-radius: 50px;
@@ -243,4 +243,17 @@ a:visited {
     cursor: pointer;
 }
 
+.me-section, .career-section {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 500px;
+    overflow-y: scroll;
+    max-height: 100px;
+}
 
+.me-para, .career-para{
+    margin: 0;
+}
