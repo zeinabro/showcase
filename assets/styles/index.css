@@ -8,18 +8,30 @@ body{
 #header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(231, 212, 231);
+    right: 0;
+    left: 0;
+    min-height: fit-content;
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
 #header span {
     padding: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #footer {
-    position: absolute;
+    padding-top: 10px;
+    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
+    background-color: rgb(231, 212, 231);
 }
 
 #main, #projects{
@@ -110,17 +122,23 @@ a:visited {
 
 #project {
     margin: 0 auto;
-    max-width: 700px;
-    max-height: 700px;
-    overflow-x: scroll;
+    max-width: 600px;
+    max-height: 600px;
+    overflow: scroll;
     border: white;
     border-radius: 50px;
     border-style: solid;
 }
 
+#project-container {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
 .project-title{
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 .description-container p{
@@ -158,6 +176,31 @@ a:visited {
 }
 
 .next-image svg:hover, .prev-image svg:hover, .next-project svg:hover, .prev-project svg:hover{
+    fill: white;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.link-icon, .link-icon svg{
+    width: 20px;
+    height: 20px;
+}
+
+.link-icon + .link-icon {
+    margin-left: 7px;
+}
+
+.link-icon svg:hover{
     fill: white;
     cursor: pointer;
 }
