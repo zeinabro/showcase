@@ -1,7 +1,7 @@
 [
     {
         "name": "Media Tracker",
-        "description": "An app I designed and made as part of my A Level Computer Science course. Users are able to create an account, search for and log a title into different lists (Completed, Planning, etc) and add their rating. I used Python Tkinter for the front-end and SQL for the database on the back-end.",
+        "description": "This is an app I designed and made as part of my A Level Computer Science course. Users are able to create an account, search for and log a title into different lists (Completed, Planning, etc) and add their rating. I used Python Tkinter for the front-end, along with SQL and  IMDb's open-source database for the back-end. I was not able to complete the 'Genres' and 'Years released' features due to time constraints, however I planned to allow users to browse titles based on their genre or year of release.",
         "role": "Full-stack",
         "icon": "assets/icons/media-tracker.png",
         "link": "",
@@ -14,7 +14,7 @@
     },
     {
         "name": "Art Quiz",
-        "description": "This is the first project I worked on during my course at La Fosse Academy. This app was designed to motivate students to enjoy non STEM subjects. Users are given a set of zoomed in paintings in which they must select the artist of. After a wrong guess, more of the painting is revealed. I worked on the front-end with JavaScript.",
+        "description": "This is the first project I have worked on with JavaScript. This app was designed to motivate students to enjoy non-STEM subjects. Users are given a set of zoomed in paintings in which they must select the artist of. After a wrong guess, more of the painting is revealed. They are awarded points based on how many guesses it took to find the correct answer. I worked on the front-end with HTML, CSS and vanilla JavaScript.",
         "role": "Front-end",
         "icon": "assets/icons/art-quiz.png",
         "link": "https://zeinabro.github.io/art-quiz/",
@@ -27,7 +27,7 @@
     },
     {
         "name": "Florinate",
-        "description": "In this group project, we built an app to help enhance a fictional community called 'Florin'. I worked on both the front and back-end, as well as testing the front-end, with JS, NodeJS and Jest. Users are able to create an account, create and apply to job listings, create and bookmark events and, finally, create and join skill classes.",
+        "description": "In this group project, we built an app to help enhance a fictional community called 'Florin'. I worked on both the front and back-end, as well as testing the front-end, with vanilla JS, Node.js, Express and Jest. Users are able to create an account, create and apply to job listings, create and bookmark events, create and join skill classes and, finally, view all of these on their profile.",
         "role": "Full-stack, QA",
         "icon": "assets/icons/florinate.png",
         "link": "https://florinate-client.onrender.com/",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Pokrastemon",
-        "description": "This app uses the well-loved franchise Pokémon and study technique 'pomodoro' to help motivate users, with a focus on students, to study. I worked on the both the front and back-end of this project, using NodeJs and React.",
+        "description": "This app uses the well-loved franchise Pokémon and study technique 'pomodoro' to help motivate users, with a focus on students, to study. Users can create an account, write to-do lists and configure their pomodoro timer. After they have completed a study session, they are awarded with a key. Once they have collected three keys, they can 'open' a treasure chest and be rewarded with a new Pokémon in the library page. I worked on the both the front and back-end of this project, using Node.js, Express and React.",
         "role": "Full-stack",
         "icon": "assets/icons/pokrastemon.png",
         "link": "https://pokrastemon.onrender.com/",
@@ -55,7 +55,7 @@
     },
     {
         "name": "Sight Reader",
-        "description": "In my final project at La Fosse, my team and I built a web app designed to help users practise their sight-reading skills. Users are able to make/complete assignments, message friends and as earn points to appear on a leader-board. I worked on the API routes and database on the back-end and the account page on the front-end.",
+        "description": "This is a web app designed to help users practise their sight-reading skills. Users are able to make/complete assignments, message friends and earn points to appear on a leader-board. Users can play the given notes using their voice or an instrument into their device's microphone, where a pitch detector will assess whether they have played the correct notes. If yes, the note will change to a green colour and the next question will appear. We also created an algorithm to award points based on the difficulty of the assignment and how long the user took to complete the set of questions (the points are only awarded for assignments). I worked on the API routes and database on the back-end and the account page on the front-end with Node.js, Express and React.",
         "role": "Full-stack",
         "icon": "assets/icons/sight-reader.png",
         "link": "https://sightreader.onrender.com/",
@@ -69,7 +69,7 @@
     },
     {
         "name": "Hangman",
-        "description": "A simple hangman game I built using JS and HTML. I used an external API to generate random words.",
+        "description": "A simple hangman game I built using vanilla JS, HTML and CSS. I used an external API to generate random words.",
         "role": "Front-end",
         "icon": "assets/icons/hangman.png",
         "link": "https://zeinabro.github.io/hangman/",
@@ -82,7 +82,7 @@
     },
     {
         "name": "Theatre App",
-        "description":"An unfinished webpage for an imaginary theatre to showcase their shows and screenings. I worked on this in a pair with a fellow student at La Fosse Academy.",
+        "description":"An unfinished webpage for an imaginary theatre's administration to view and edit their shows and screenings. I worked on this in a pair, focusing on the back-end. We used vanilla JS, HTML, CSS, Node.js and Express",
         "role":"Back-end",
         "icon": "assets/icons/theatre.png",
         "link": "https://zeinabro.github.io/theatre-app//",

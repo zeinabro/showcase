@@ -14,7 +14,7 @@ async function show_project() {
     title_container.className = 'project-title'
     const title = document.createElement('a')
     title.className = 'project-title'
-    title.href = project.link
+    if (project.link) {title.href = project.link}
     title.target = "_blank"
     title.textContent = (project.name).toUpperCase()
     title_container.appendChild(title)

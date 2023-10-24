@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Playpen+Sans&family=Poppins&family=Sometype+Mono&display=swap');
+
 body{
     display: grid;
     min-height: 100%;
     text-align: center;
-    /* font-family: 'Comfortaa', 'Inconsolata';  */
+    font-family: 'Playpen Sans'; 
+    font-family: 'Poppins';
+    font-display: swap;
     font-size: 15px;
 }
 
-body, #header, #footer{
-    background-color: rgb(176, 125, 176);
+body, #header {
+    background-image: url('https://wallpapercave.com/wp/wp4778514.jpg');
 }
 
 #header {
