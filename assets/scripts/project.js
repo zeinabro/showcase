@@ -1,5 +1,5 @@
 async function get_data() {
-    return await fetch('/showcase/assets/projects.json')
+    return await fetch('assets/projects.json')
     .then((res) => res.json())
     .then((data) => data)
     .catch((err) => err)
