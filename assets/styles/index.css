@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Inconsolata:wght@500&display=swap');
+
 body{
     display: grid;
     min-height: 100%;
     text-align: center;
-    background-color: rgb(231, 212, 231);
+    font-family: 'Comfortaa', 'Inconsolata';
+}
+
+body, #header, #footer{
+    background-color: rgb(176, 125, 176);
 }
 
 #header {
@@ -10,13 +16,11 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: rgb(231, 212, 231);
     right: 0;
     left: 0;
     min-height: fit-content;
     position: fixed;
     top: 0;
-    width: 100%
 }
 
 #header span {
@@ -26,12 +30,20 @@ body{
 }
 
 #footer {
-    padding-top: 10px;
+    /* padding-top: 10px; */
     position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgb(231, 212, 231);
+}
+
+#main {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: rgb(92, 13, 87);
+    border-radius: 50px;
+    border-style: solid; */  
 }
 
 #main, #projects{
@@ -48,17 +60,24 @@ body{
 #main .title{
     margin-bottom: 0;
     padding-bottom: 0;
+    /* color: white; */
 }
 
 #main .subtitle{
     margin-top: 0;
     font-size: 13px; 
+    /* color: white; */
 }
 
 .svg-link{
     display: inline-block;
     position: relative;
     z-index: 1;
+}
+
+.svg-link svg{
+    height: 40px;
+    width: 40px;
 }
 
 .svg-link svg:hover{
@@ -97,7 +116,7 @@ a:visited {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: plum;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 5px;
     min-width: 30px;
@@ -139,6 +158,7 @@ a:visited {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 5px;
+    color: white;
 }
 
 .description-container p{
@@ -146,6 +166,7 @@ a:visited {
     text-align: left;
     margin: 0 auto;
     padding: 10px;
+    padding-bottom: 0px;
 }
 
 .screenshots-container, #project-container{
@@ -204,3 +225,5 @@ a:visited {
     fill: white;
     cursor: pointer;
 }
+
+
