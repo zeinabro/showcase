@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins';
     font-display: swap;
     font-size: 15px;
+    cursor: default
 }
 
 body, #header {
@@ -48,7 +49,7 @@ body, #header {
     /* border: rgb(92, 13, 87);
     border-radius: 50px;
     border-style: solid; */ 
-    font-size: 16px; 
+    font-size: 20px; 
 }
 
 #main, #projects{
@@ -69,8 +70,9 @@ body, #header {
 }
 
 #main .subtitle{
+    padding-top: 0px;
     margin-top: 0;
-    font-size: 13px; 
+    font-size: 15px; 
     /* color: white; */
 }
 
@@ -96,6 +98,7 @@ a {
 
 a:hover{
     color: white;
+    cursor: pointer;
 }
 
 a:visited {
@@ -147,7 +150,7 @@ a:visited {
 #project {
     margin: 0 auto;
     max-width: 600px;
-    max-height: 600px;
+    /* max-height: 600px; */
     border: white;
     border-radius: 50px;
     border-style: solid;
