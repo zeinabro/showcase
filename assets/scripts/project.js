@@ -1,5 +1,5 @@
 async function get_data() {
-    return await fetch('../assets/projects.json')
+    return await fetch('/showcase/assets/projects.json')
     .then((res) => res.json())
     .then((data) => data)
     .catch((err) => err)
@@ -7,8 +7,7 @@ async function get_data() {
 
 async function show_project() {
     const projects = await get_data()
-    console.log(projects.length-1)
-    console.log(projects[projects.length-1])
+    console.log(projects)
 
     const title = document.createElement('p')
     title.className = 'project-title'
