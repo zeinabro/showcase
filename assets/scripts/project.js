@@ -28,6 +28,8 @@ async function show_project() {
         change_slides(-1)
     })
     ss_section.appendChild(left_image_btn)    
+
+    console.log(project.screenshots)
     
     for (let i=1;i<7;i++){
         const screenshot = document.createElement('img')

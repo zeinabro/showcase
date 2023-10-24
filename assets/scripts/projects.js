@@ -14,7 +14,9 @@ async function show_project_cards() {
         const card = document.createElement('div')
         card.className = 'card'
         const card_cover = document.createElement('img')
+        console.log(project.icon)
         card_cover.src = project.icon
+        console.log(card_cover)
 
         card_title = document.createElement('span')
         card_title.textContent = project.name
