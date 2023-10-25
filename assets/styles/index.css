@@ -139,7 +139,7 @@ a:visited {
 
 #projects{
     display: flex;
-    max-width: 600px;
+    max-width: 500px;
     height: fit-content;
     overflow-y:scroll;
     scroll-behavior: smooth;
