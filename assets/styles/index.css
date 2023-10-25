@@ -88,7 +88,7 @@ body, #header {
 }
 
 .svg-link svg:hover{
-    fill: white;
+    fill: #fbe5f8;
 }
 
 a {
@@ -97,7 +97,9 @@ a {
 }
 
 a:hover{
-    color: white;
+    /* color: rgba(255, 255, 255, 0.689);
+ */
+    color: #fbe5f8;
     cursor: pointer;
 }
 
@@ -124,7 +126,7 @@ a:visited {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(255, 255, 255);
+    background-color: #fbe5f8;
     border-radius: 20px;
     padding: 5px;
     min-width: 30px;
@@ -141,19 +143,21 @@ a:visited {
     height: fit-content;
     overflow-y:scroll;
     scroll-behavior: smooth;
-    border: white;
+    border: #7b4d8376;
     border-radius: 50px;
     border-style: solid;
     padding-top: 15px;
 }
 
-#project, .me-section, .career-section{
+#project, .career-section{
     margin: 0 auto;
-    /* max-width: 600px; */
+    /* max-width: fit-content; */
     /* max-height: 600px; */
-    border: white;
+    border: #7b4d8376;;
     border-radius: 50px;
     border-style: solid;
+    /* border-width: 10px; */
+    /* text-align: left; */
 }
 
 #project-container {
@@ -206,7 +210,7 @@ a:visited {
 }
 
 .next-image svg:hover, .prev-image svg:hover, .next-project svg:hover, .prev-project svg:hover{
-    fill: white;
+    fill: #fbe5f8;
     cursor: pointer;
 }
 
@@ -239,7 +243,7 @@ a:visited {
 }
 
 .link-icon svg:hover{
-    fill: white;
+    fill: #fbe5f8;
     cursor: pointer;
 }
 
@@ -251,9 +255,20 @@ a:visited {
     margin-bottom: 15px;
     width: 500px;
     overflow-y: scroll;
-    max-height: 100px;
+    max-height: 200px;
 }
 
 .me-para, .career-para{
     margin: 0;
+    text-align: left;
+}
+
+.me-para{
+    font-size: 20px;
+    text-align: center;
+    /* padding-bottom: 5px; */
+}
+
+.career-para{
+    padding: 5px;
 }
