@@ -41,13 +41,12 @@ function show_about() {
 
     const career_section = document.createElement('div')
     career_section.className = 'career-section'
-    const career_para = document.createElement('p')
-    career_para.className = 'career-para'
-    career_para.textContent = 'I found a passion for technology and coding during my high school Computer Science lessons.         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse dolor excepturi facere fugiat fuga cupiditate dolorum quia quaerat deleniti magni ad eum adipisci est, expedita nesciunt voluptatum aspernatur repellendus odit!'
 
-    career_section.appendChild(career_para)
+    career_section.innerHTML = '<p> I found a passion for technology and coding during my high school Computer Science lessons. I continued my CS studies in both my GCSEs and A Levels.\
+    <p> I have also completed a 12 week technology course at La Fosse Academy. There, I learnt HTML, CSS, JavaScript, React and Node.js to create both front-end and back-end web projects, as well as other technological tools and concepts.\ '
 
     me_section.append(me_para, links_section)
+    about_container.appendChild(me_section)
     about_container.append(me_section, career_section)
 }
 
