@@ -149,7 +149,7 @@ a:visited {
     padding-top: 15px;
 }
 
-#project, .career-section{
+#project, .me-section, .career-section{
     margin: 0 auto;
     /* max-width: fit-content; */
     /* max-height: 600px; */
@@ -247,7 +247,7 @@ a:visited {
     cursor: pointer;
 }
 
-.me-section, .career-section {
+.heading-section, .me-section, .career-section {
     padding: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -258,17 +258,24 @@ a:visited {
     max-height: 200px;
 }
 
-.me-para, .career-section p{
+.heading-para, .me-section p, .career-section p{
     margin: 0;
     text-align: left;
 }
 
-.me-para{
+.heading-para{
     font-size: 20px;
     text-align: center;
     /* padding-bottom: 5px; */
 }
 
-.career-section p{
+.me-section p, .career-section p{
     padding: 5px;
+}
+
+.me-section, .career-section{
+    overflow-y: scroll;
+    max-height: 200px;
+    padding-left: 15px;
+    margin: 0;
 }

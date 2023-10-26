@@ -1,9 +1,9 @@
 function show_about() {
-    const me_section = document.createElement('div')
-    me_section.className = 'me-section'
-    const me_para = document.createElement('p')
-    me_para.className = 'me-para'
-    me_para.textContent = 'Hi, I\'m Zeinab!'
+    const heading_section = document.createElement('div')
+    heading_section.className = 'heading-section'
+    const heading_para = document.createElement('p')
+    heading_para.className = 'heading-para'
+    heading_para.textContent = 'Hi, I\'m Zeinab!'
 
     const links_section = document.createElement('div')
     links_section.className = 'socials'
@@ -36,15 +36,19 @@ function show_about() {
 
     links_section.append(github_link, linkedin_link,mail_link)
 
+    const me_section = document.createElement('div')
+    me_section.className = 'me-section'
+
+    me_section.innerHTML = '<p> I found a passion for technology and coding during my high school Computer Science lessons. I continued my CS studies in both my GCSEs and A Levels, where I mainly used Python.\
+    <p> I have also completed a 12 week technology course at La Fosse Academy. There, I learnt HTML, CSS, JavaScript, React and Node.js to create both front-end and back-end web projects, as well as other technological tools and concepts.\
+    <p>I would like to be a web developer as I love to code and create new and exciting projects. '
+
     const career_section = document.createElement('div')
     career_section.className = 'career-section'
+    career_section.innerHTML = '<p>I would like to be a web developer as I love to code and create new and exciting projects. '
 
-    career_section.innerHTML = '<p> I found a passion for technology and coding during my high school Computer Science lessons. I continued my CS studies in both my GCSEs and A Levels.\
-    <p> I have also completed a 12 week technology course at La Fosse Academy. There, I learnt HTML, CSS, JavaScript, React and Node.js to create both front-end and back-end web projects, as well as other technological tools and concepts.\ '
-
-    me_section.append(me_para, links_section)
-    about_container.appendChild(me_section)
-    about_container.append(me_section, career_section)
+    heading_section.append(heading_para, links_section)
+    about_container.append(heading_section, me_section)
 }
 
 const about_container = document.querySelector('#about-container')
