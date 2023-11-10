@@ -82,7 +82,7 @@
     },
     {
         "name": "Theatre App",
-        "description":"An unfinished webpage for an imaginary theatre's administration to view and edit their shows and screenings. I worked on this in a pair, focusing on the back-end. We used vanilla JS, HTML, CSS, Node.js and Express",
+        "description":"An unfinished webpage for an imaginary theatre's administration to view and edit their shows and screenings. I worked on this in a pair, focusing on the back-end. We used vanilla JS, HTML, CSS, Node.js and Express.",
         "role":"Back-end",
         "icon": "assets/icons/theatre.png",
         "link": "https://zeinabro.github.io/theatre-app/",
