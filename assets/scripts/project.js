@@ -1,5 +1,5 @@
 async function get_data() {
-    return await fetch('assets/projects.json')
+    return await fetch('https://zeinabro.github.io/assets/projects.json')
     .then((res) => res.json())
     .then((data) => data)
     .catch((err) => err)
@@ -8,7 +8,6 @@ async function get_data() {
 async function show_project() {
     const projects = await get_data()
     console.log(projects)
-    console.log(project)
 
     const title_container = document.createElement('p')
     title_container.className = 'project-title'
@@ -33,8 +32,6 @@ async function show_project() {
         change_slides(-1)
     })
     ss_section.appendChild(left_image_btn)    
-
-    console.log(project.screenshots)
     
     for (let i=1;i<7;i++){
         const screenshot = document.createElement('img')
@@ -135,14 +132,13 @@ function change_project(projects,n){
         localStorage.setItem('project', JSON.stringify(projects[x]))
         localStorage.setItem('index', x)
     }
-    console.log(localStorage)
-    window.open('project.html', "_self")
 
+    window.open('project.html', "_self")
 }
 
 function show_slide(n){
     const slides = document.getElementsByClassName("screenshot")
-    console.log(slides.length)
+
     if (n > slides.length) {imageIndex = 1}
     if (n < 1) {imageIndex = slides.length} 
     for (let i=0;i<slides.length;i++) {

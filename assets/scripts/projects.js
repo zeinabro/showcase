@@ -1,22 +1,21 @@
 async function get_data() {
-    return await fetch('assets/projects.json')
+    return await fetch('https://zeinabro.github.io/assets/projects.json')
     .then((res) => res.json())
-    .then((data) => data)
+    .then((data) => {
+        console.log(data)
+        return data
+    })
     .catch((err) => err)
 }
 
 async function show_project_cards() {
     const projects = await get_data()
-    console.log(projects)
 
     projects.forEach((project, i) => {
-        console.log(project.name, i)
         const card = document.createElement('div')
         card.className = 'card'
         const card_cover = document.createElement('img')
-        console.log(project.icon)
         card_cover.src = project.icon
-        console.log(card_cover)
 
         card_title = document.createElement('span')
         card_title.textContent = project.name
